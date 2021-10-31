@@ -1,0 +1,85 @@
+{
+  "sellers": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "isCertified": "false"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com",
+      "isCertified": "false"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "email": "ann@codingthesmartway.com",
+      "isCertified": "false"
+    }
+  ],
+
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "nobita",
+      "last_name" : "nobi"
+    },
+    {
+      "id": 2,
+      "first_name": "sizuka",
+      "last_name": "cutie"
+    },
+    {
+      "id": 3,
+      "first_name": "jian",
+      "last_name": "mota"
+    }
+  ],
+
+  "products" : [
+    {
+      "id": 1,
+      "name": "Ikea table",
+      "price": "200",
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "name": "Office chair",
+      "price": "500",
+      "quantity": 9
+    },
+    {
+      "id": 3,
+      "name": "Apple Laptop",
+      "price": "1000",
+      "quantity": 7
+    }
+  ],
+
+  "orders" : [
+    {
+      "id": 1,
+      "customerId": 2,
+      "productId": 3,
+      "quantity": 2 
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "productId": 2,
+      "quantity": 3 
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "productId": 1,
+      "quantity": 2 
+    }
+  ]
+}
