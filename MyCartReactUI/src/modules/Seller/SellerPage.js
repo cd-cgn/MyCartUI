@@ -1,4 +1,5 @@
 import useFetch from '../../hooks/useFetch.js'
+import Card from '../../components/Card.js';
 
 export default function SellerPage() {
 
@@ -15,17 +16,14 @@ export default function SellerPage() {
         {productsError && <div>{productsError}</div>}
         {products && products.map((product)=>(
           <div key={product.id}>
+            <Card>
             <p>{product.name}</p>
             <p>{product.price}</p>
             <p>{product.quantity}</p>
+            </Card>
           </div>
         ))}
       </div>
     </div>
   )
 }
-
-
-// List all added producs (by logged in seller)
-// add new Product
-// remove a added Product

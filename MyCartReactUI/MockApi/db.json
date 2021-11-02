@@ -81,5 +81,26 @@
       "productId": 1,
       "quantity": 2 
     }
+  ],
+
+  "carts" : [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productId": 2,
+      "quantity": 2 
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "productId": 2,
+      "quantity": 3 
+    },
+    {
+      "id": 3,
+      "customerId": 2,
+      "productId": 3,
+      "quantity": 2 
+    }
   ]
 }

@@ -1,6 +1,25 @@
 
+# ADMIN SIDE { Component : Users, Products }
+- Site Admin Login
+- [sellersList] : Approve/Remove/List Sellers
+- [CustomersList] : List All Customers
+- [OrdersList] : List All Orders
+- [Products] : List All Products
 
 
+# SELLER SIDE { Component : Products }
+- Login / SignUp (on SignUp pending Approval)
+- [sellerProducts] List all seller stock (filtered by logged in seller) 
+- [Model] add new Product
+- [counterButtons] increase / decrease quantity of a product
+- [deleteButton] remove a added Product
+
+
+# CUSTOMER SIDE { component : Products }
+- Login / SignUp
+- [Shopping] : Add(Button) Products to My Cart
+- [MyCart] : Place Orders(Button) / Remove Products(Button) from My Cart
+- [MyOrders] : List Orders with their status / cancel a order(Button)
 
 
 
