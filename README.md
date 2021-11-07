@@ -1,9 +1,11 @@
+# Project Overview :
+Timeline : Current
+Class : Personal
 
 # Microservices
 - User/Login Management / Logger Management
 
-- Admin Management
-- Seller Management
+- Admin / Seller Management
 - Product Management
 
 # Databases
