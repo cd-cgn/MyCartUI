@@ -12,11 +12,11 @@ export default function useFetch(url) {
     const loadData = async () => {
       setIsPending(true);
       try{
-        const res = await fetch(url);
+        const res = await fetch(url);// console.log(res);
         if(!res.ok) throw new Error(res.statusText);
 
-        const json = await res.json();
-        
+        const json = await res.json();// console.log(json);
+
         setIsPending(false)
         setData(json);
       }

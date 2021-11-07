@@ -1,35 +1,20 @@
-# ECommApp
-Enterprise Scale ECommerce Application
-
-# User Interface
-- React UI
-[UserExperience]
-- Admin UX : 
-Login -> Add/Remove Sellers -> Logout
-
-- Seller UX : 
-Login / SignUP -> Add/Remove Products -> Logout
-
-- Customer UX : 
-Login / SignUP -> 
-Products Page Add -> Cart Page Add/Remove/Order -> Order Page Cancel/Delivered 
--> Logout
 
 # Microservices
-- Login Management (user type management)
+- User/Login Management / Logger Management
 
-- Admin Managment
+- Admin Management
 - Seller Management
-- User Management
+- Product Management
 
 # Databases
-- MongoDB
-- SqlServer
+- MongoDB : Seller / Customers
+- Cassandra : Logger
+- SqlServer : Products / Cart / Orders
 
 [Tables/Collections]
 - Customers
+- Sellers
+
 - Cart
 - Orders
 - Products
-- Sellers
-- Admin
